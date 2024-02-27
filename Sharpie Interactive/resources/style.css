@@ -1,0 +1,94 @@
+* {
+  font-family: "Slabo 27px", serif;
+}
+.slabo-27px-regular {
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  border: 5px solid rgba(170, 10, 103, 0.295);
+}
+
+.navigation {
+  background-color: #e68a00;
+  padding: 5px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  font-size: 4rem;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#nav-bar ul {
+  display: flex;
+  font-size: 2.25rem;
+  list-style: none;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  border: 3px solid black;
+  border-radius: 20%;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-contact,
+#nav-about,
+#nav-projects {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+#nav-contact:active,
+#nav-about:active,
+#nav-projects:active {
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  transform: scale(0.98);
+}
+
+main {
+  background-color: #6666ff;
+  font-size: 1.2rem;
+  color: #ffebcc;
+  padding: 1rem;
+}
+
+.sharpie-pics {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#sharpie-gamer {
+  max-width: 50%;
+  border: 2px black solid;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav-bar ul {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  #site-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 1rem;
+  }
+}
