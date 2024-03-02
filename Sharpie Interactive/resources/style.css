@@ -49,7 +49,15 @@ body {
 #nav-contact,
 #nav-about,
 #nav-projects {
+  height: 3rem;
+  border-radius: 5px 25px;
   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transition: all 300ms ease-in;
+
+  &:hover {
+    transform: scale(1.25);
+    transition: all 300ms ease-out;
+  }
 }
 
 #nav-contact:active,
