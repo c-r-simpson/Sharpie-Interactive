@@ -1,4 +1,6 @@
 let sharpieGamer = document.getElementById("sharpie-gamer");
+let sharpiePost = document.getElementById("sharpie-wild-scratch-post");
+
 let about = document.getElementById("nav-about");
 let projects = document.getElementById("nav-projects");
 let contact = document.getElementById("nav-contact");
@@ -29,6 +31,6 @@ const navAlert = () => {
 sharpieGamer.addEventListener("mouseover", enlargeImage);
 sharpieGamer.addEventListener("mouseout", resetImage);
 
-about.addEventListener("click", navAlert);
+// about.addEventListener("click", navAlert);
 projects.addEventListener("click", navAlert);
 contact.addEventListener("click", navAlert);

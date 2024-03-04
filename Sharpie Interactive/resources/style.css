@@ -48,7 +48,8 @@ body {
 
 #nav-contact,
 #nav-about,
-#nav-projects {
+#nav-projects,
+#nav-home {
   height: 3rem;
   border-radius: 5px 25px;
   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
@@ -62,7 +63,8 @@ body {
 
 #nav-contact:active,
 #nav-about:active,
-#nav-projects:active {
+#nav-projects:active,
+#nav-home {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   transform: scale(0.98);
 }
