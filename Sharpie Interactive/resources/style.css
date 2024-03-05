@@ -87,6 +87,11 @@ main {
   border: 2px black solid;
 }
 
+#sharpie-wild-scratch-post {
+  max-width: 25%;
+  border: 2px black solid;
+}
+
 @media only screen and (max-width: 600px) {
   #nav-bar ul {
     display: flex;
